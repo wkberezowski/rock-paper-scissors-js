@@ -1,5 +1,42 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  font-size: 2rem;
+}
+
+body {
+  height: 69vh;
+  text-align: center;
+}
+
+h2 {
+  margin: 30px;
+}
+
+.computer-choice {
+  margin-top: 10rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  background-color: lightblue;
+  margin: 10px;
+  padding: 10px;
+  width: 80px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.5rem;
 }
